@@ -1,0 +1,9 @@
+{
+  "name": "rea-scripts",
+  "version": "1.0.0",
+  "description": "Scripts for REA website",
+  "type": "module",
+  "scripts": {
+    "generate-placeholders": "node generate-placeholder.js"
+  }
+}

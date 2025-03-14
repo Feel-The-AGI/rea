@@ -1,0 +1,44 @@
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(0); }
+  50% { transform: translateY(-10px) rotate(3deg); }
+}
+
+@keyframes float-delay {
+  0%, 100% { transform: translateY(0) rotate(0); }
+  50% { transform: translateY(-8px) rotate(-3deg); }
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.animate-float {
+  animation: float 15s ease-in-out infinite;
+}
+
+.animate-float-delay {
+  animation: float-delay 18s ease-in-out infinite;
+}
+
+/* Simpler hover effects */
+.title-pop {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.title-pop:hover {
+  transform: translateY(-3px) scale(1.05);
+  color: var(--gold-primary, #D4AF37);
+}
+
+.content-pop {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.content-pop:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}

@@ -23,7 +23,7 @@ export default function Footer() {
               <span className="gradient-text-gold">REA</span>
             </h3>
             <p className="mb-6 text-black text-center md:text-left">
-              Premium Real Estate Automation Services in Ghana
+              Premium Real Estate Automation Services in Africa
             </p>
             <div className="flex space-x-5">
               <a href="#" aria-label="Facebook" className="text-black hover:text-[#D4AF37] hover-float transition-colors">

@@ -53,7 +53,7 @@ locations.forEach(location => {
 <body>
   <div class="placeholder">
     <h1>${location.charAt(0).toUpperCase() + location.slice(1)} Property</h1>
-    <p>Placeholder image for ${location.charAt(0).toUpperCase() + location.slice(1)}, Ghana</p>
+    <p>Placeholder image for ${location.charAt(0).toUpperCase() + location.slice(1)}, Africa</p>
   </div>
 </body>
 </html>

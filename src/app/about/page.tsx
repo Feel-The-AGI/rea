@@ -11,10 +11,10 @@ export default function About() {
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 slide-in-left">
                 <span className="text-black">About</span>
                 <span className="hero-gradient-text block">Real Estate</span>
-                <span className="gradient-text-gold block">Autopilot</span>
+                <span className="gradient-text-gold block">Agent</span>
               </h1>
               <p className="text-lg text-[#2A2A2A] mb-6 max-w-xl slide-in-left" style={{ animationDelay: "0.3s" }}>
-                We&lsquo;re revolutionizing the real estate industry in Ghana with cutting-edge AI automation and personalized client experiences.
+                We&lsquo;re revolutionizing the real estate industry in Africa with cutting-edge AI automation and personalized client experiences.
               </p>
             </div>
             <div className="md:w-1/2 relative slide-in-right">
@@ -23,7 +23,7 @@ export default function About() {
                   frontContent={
                     <div className="text-center">
                       <p className="text-2xl font-bold gradient-text-gold mb-2">Est. 2025</p>
-                      <p className="text-lg text-[#2A2A2A]">Accra, Ghana</p>
+                      <p className="text-lg text-[#2A2A2A]">Accra, Africa</p>
                     </div>
                   }
                   backContent={
@@ -54,7 +54,7 @@ export default function About() {
             </div>
             <div className="glass-light p-8 rounded-2xl">
               <p className="text-xl text-[#2A2A2A] leading-relaxed">
-                Transforming Real Estate Sales in Ghana with Intelligent Automation.
+                Transforming Real Estate Sales in Africa with Intelligent Automation.
               </p>
             </div>
           </div>
@@ -120,17 +120,7 @@ export default function About() {
               <h2 className="text-3xl font-bold gradient-text-blue">Team Introduction</h2>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-              {/* Sandra Card */}
-              <div className="glass-light overflow-hidden rounded-xl premium-shadow hover-float transition-all duration-300">
-                <div className="h-2 bg-gradient-to-r from-[#D4AF37] to-[#BF953F]"></div>
-                <div className="p-6 flex flex-col items-center">
-                  <div className="w-24 h-24 rounded-full bg-gradient-to-r from-[#D4AF37] to-[#FFF3B0] flex items-center justify-center text-black text-2xl font-semibold premium-shadow mb-4 border-4 border-white">S</div>
-                  <h3 className="text-xl font-bold text-[#5D7189] mb-1">Sandra</h3>
-                  <p className="gradient-text-gold font-medium text-center">CEO & Sales Strategist</p>
-                  <div className="w-16 h-1 bg-gradient-to-r from-[#D4AF37] to-[#BF953F] rounded-full my-3"></div>
-                  <p className="text-[#2A2A2A] text-center text-sm mt-2">10+ years in real estate sales and business development</p>
-                </div>
-              </div>
+              
               
               {/* Jason Card */}
               <div className="glass-light overflow-hidden rounded-xl premium-shadow hover-float transition-all duration-300">
@@ -156,17 +146,6 @@ export default function About() {
                 </div>
               </div>
               
-              {/* Priscilla Card */}
-              <div className="glass-light overflow-hidden rounded-xl premium-shadow hover-float transition-all duration-300">
-                <div className="h-2 bg-gradient-to-r from-[#D4AF37] to-[#BF953F]"></div>
-                <div className="p-6 flex flex-col items-center">
-                  <div className="w-24 h-24 rounded-full bg-gradient-to-r from-[#D4AF37] to-[#FFF3B0] flex items-center justify-center text-black text-2xl font-semibold premium-shadow mb-4 border-4 border-white">P</div>
-                  <h3 className="text-xl font-bold text-[#5D7189] mb-1">Priscilla</h3>
-                  <p className="gradient-text-gold font-medium text-center">Automation Specialist</p>
-                  <div className="w-16 h-1 bg-gradient-to-r from-[#D4AF37] to-[#BF953F] rounded-full my-3"></div>
-                  <p className="text-[#2A2A2A] text-center text-sm mt-2">Expert in workflow optimization and client experience</p>
-                </div>
-              </div>
             </div>
           </div>
         </section>
@@ -177,7 +156,7 @@ export default function About() {
             <div className="text-center">
               <h2 className="text-3xl font-bold gradient-text-blue mb-6">Join Our Mission</h2>
               <p className="text-lg text-[#2A2A2A] mb-8 max-w-2xl mx-auto">
-                Ready to revolutionize real estate in Ghana? Partner with us to transform your business with intelligent automation.
+                Ready to revolutionize real estate in Africa? Partner with us to transform your business with intelligent automation.
               </p>
               <div className="flex justify-center gap-6 flex-wrap">
                 <a 

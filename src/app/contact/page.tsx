@@ -145,7 +145,7 @@ export default function Contact() {
                         <h4 className="text-lg font-semibold mb-2 text-[#F9DF74]">Office Address</h4>
                         <p className="mb-1 text-[#B1C2D3]">15 Independence Avenue</p>
                         <p className="mb-1 text-[#B1C2D3]">Airport Residential Area</p>
-                        <p className="text-[#B1C2D3]">Accra, Ghana</p>
+                        <p className="text-[#B1C2D3]">Accra, Africa</p>
                       </div>
                       
                       <div>
@@ -228,7 +228,7 @@ export default function Contact() {
               
               <div className="premium-card p-6">
                 <h3 className="text-xl font-bold mb-2 text-[#5D7189]">Do you offer virtual consultations?</h3>
-                <p className="text-[#2A2A2A]">Yes, we offer virtual consultations via Zoom or Google Meet for clients who prefer remote meetings or are currently located outside Ghana.</p>
+                <p className="text-[#2A2A2A]">Yes, we offer virtual consultations via Zoom or Google Meet for clients who prefer remote meetings or are currently located outside Africa.</p>
               </div>
             </div>
           </div>
